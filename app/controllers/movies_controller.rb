@@ -22,6 +22,7 @@ class MoviesController < ApplicationController
   # GET /movies/1/edit
   def edit
     @genres = Genre.all
+    @actors = Actor.all
   end
 
   # POST /movies
